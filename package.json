@@ -1,0 +1,21 @@
+{
+	name: "react-native-multistep-wizard",
+	version: "1.0.0",
+	description: "React Native Multistep wizard",
+	main: "index.js",
+	scripts: {
+		test: "echo "Error: no test specified" && exit 1"
+	},
+	keywords: [
+		"Multistep",
+		"Wizard",
+  		"android",
+		"ios"
+	],
+	author: "Vivek Khurana",
+	license: "MIT",
+	repository: {
+		type: "git",
+		url: "git+https@github.com:vivekkhurana/react-native-multistep-wizard.git"
+	}
+}
