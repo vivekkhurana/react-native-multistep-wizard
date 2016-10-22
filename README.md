@@ -5,7 +5,7 @@
 ### In the top level comonenet add
 
 ```
-import MultiStep from '../MultiStep'
+import MultiStep from 'react-native-multistep-wizard'
 import StepOne from './StepOne'
 import StepTwo from './StepTwo'
 import StepThree from './StepThree'
