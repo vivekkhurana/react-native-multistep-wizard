@@ -47,8 +47,6 @@ class StepOne extends Component{
 
 }
 
-```
-
 nextPreprocess(){
       
   // Save step state or use in wizard
