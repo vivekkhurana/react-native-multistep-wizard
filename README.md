@@ -24,7 +24,7 @@ class Register extends Component{
 /* define the method to be called when the wizard is finished */
 
 finish(wizardState){
-//code to e executed when wizard is finished
+//code to be executed when wizard is finished
         
     }
 
@@ -49,7 +49,7 @@ class StepOne extends Component{
 
 nextPreprocess(){
       
-  // Save step state or use in wizard
+  // Save step state for use in other steps of the wizard
   this.props.saveState(0,{key:'value'})
 
   // Go to next step
