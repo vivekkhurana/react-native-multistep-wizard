@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import {
     View,
-    ScrollView,
     Alert
 } from 'react-native'
 
@@ -69,10 +68,7 @@ export default class MultiStep extends Component {
         
         return (
             <View>
-                <ScrollView>
                    {this.state.steplist[this.state.curState]}
-                    
-                </ScrollView>
             </View>
         )
             
