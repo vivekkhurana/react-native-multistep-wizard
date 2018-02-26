@@ -27,7 +27,8 @@ export default class MultiStep extends Component {
                 nextFn:this.next,
                 prevFn:this.previous,
                 saveState:this.saveStepState,
-                getState:this.getStepState
+                getState:this.getStepState,
+                ...this.props
             })
             
             
