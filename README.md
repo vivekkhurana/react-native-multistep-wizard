@@ -2,7 +2,7 @@
 
 ## How to use
 
-### In the top level comonenet add
+### In the top level componenet add
 
 ```
 import MultiStep from 'react-native-multistep-wizard'
