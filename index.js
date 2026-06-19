@@ -38,8 +38,7 @@ export default class MultiStep extends Component {
     next(){
         if((this.state.curState +1) < this.props.steps.length ){
             this.setState({curState:this.state.curState +1})
-        }
-        if((this.state.curState +1) == this.props.steps.length){
+        } else if((this.state.curState +1) == this.props.steps.length){
             this.finishWizard()
         }
         
